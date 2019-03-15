@@ -1,0 +1,54 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h1{
+    margin: 0;
+}
+
+.header, .footer{
+    background-color: blue;
+    color: white;
+
+}
+
+.contenedor{
+    display: flex;
+}
+.contenido1{
+    background-color: orangered;
+    width: 33.3%;
+}
+
+.contenido2{
+    background-color: palegoldenrod;
+    width: 33.3%;
+}
+.contenido3{
+    background-color: greenyellow;
+    width: 33.3%;
+}
+
+@media (max-width: 625px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .contenido1{
+        height: 33.3%;
+        width:100%;
+    }
+    .contenido2{
+        height: 33.3%;
+        width:100%;        
+    }
+    .contenido3{
+        height: 33.3%;
+        width:100%;        
+    } 
+}
+
+@media (max-width: 1000px){
+    .contenedor, .header, .footer{
+        max-width: 1000px;
+    }
+}

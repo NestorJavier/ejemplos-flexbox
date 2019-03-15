@@ -1,0 +1,28 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articulo, .titulo{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.imagen{
+    width: 200px;
+}
+
+.precio{
+    background-color: orange;
+    font-size: inherit;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
